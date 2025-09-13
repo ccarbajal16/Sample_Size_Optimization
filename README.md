@@ -1,10 +1,15 @@
 # Sample Size Optimization for cLHS
 
+![results](outputs/kl_cdf_threshold.png)
+
 An R implementation of KL divergence-based sample size optimization for conditioned Latin Hypercube Sampling (cLHS), following the methodology from Malone et al. (2019).
 
 ## Overview
 
 This project determines optimal sample sizes for spatial sampling by analyzing the statistical divergence between population and sample distributions. It uses KL (Kullback-Leibler) divergence to quantify how well samples represent the underlying population across multiple environmental variables.
+
+![Sample Size Optimization Workflow](img/workflow_main_process.png)
+
 
 ## Features
 
@@ -90,20 +95,6 @@ The analysis generates several output files:
 | `kl_fitted_curve.csv`              | Exponential model predictions (if fitting successful)                 |
 | `kl_divergence_vs_sample_size.png` | Visualization showing KL divergence vs. sample size with fitted curve |
 | `kl_cdf_threshold.png`             | CDF analysis plot indicating optimal sample size                      |
-
-## Project Structure
-
-Sample_Size_Optimization/
-├── data/
-│   └── predictors.tif          # Input raster data
-├── outputs/                    # Generated results
-│   ├── kl_raw_results.csv
-│   ├── kl_summary_results.csv
-│   ├── kl_fitted_curve.csv
-│   ├── kl_divergence_vs_sample_size.png
-│   └── kl_cdf_threshold.png
-├── kl_optimization.r           # Main script
-└── README.md                   # This file
 
 ## Key Functions
 
