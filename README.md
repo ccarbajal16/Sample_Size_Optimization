@@ -7,6 +7,7 @@ An R implementation of KL divergence-based sample size optimization for conditio
 ## Overview
 
 This project determines optimal sample sizes for spatial sampling by analyzing the statistical divergence between population and sample distributions. It uses KL (Kullback-Leibler) divergence to quantify how well samples represent the underlying population across multiple environmental variables.
+More details can be found in the Medium article: [Generation of soil sampling points using optimized conditional Latin hypercube (Part 1)](https://medium.com/@cmcarbajal/generation-of-soil-sampling-points-using-optimized-conditional-latin-hypercube-part-1-494e644a14c4).
 
 ![Sample Size Optimization Workflow](img/workflow_main_process.png)
 
