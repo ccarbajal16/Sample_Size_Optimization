@@ -554,7 +554,7 @@ save_optimization_plots <- function(results, output_dir = "outputs", prefix = "k
 }
 
 
-# Full end-to-end workflow with outputs:
-results <- run_kl_optimization()
+# Full end-to-end workflow with outputs: uncomment to run
+# results <- run_kl_optimization()
 
 
