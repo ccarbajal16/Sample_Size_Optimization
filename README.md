@@ -145,6 +145,8 @@ The analysis generates several output files:
 
 Malone BP, Minansy B, Brungard C. 2019. **Some methods to improve the utility of conditioned Latin hypercube sampling**. PeerJ **7**:**e6451** [https://doi.org/10.7717/peerj.6451](https://doi.org/10.7717/peerj.6451)
 
+Saurette, D. D., Heck, R. J., Gillespie, A. W., Berg, A. A., & Biswas, A. (2023). **Divergence metrics for determining optimal training sample size in digital soil mapping**.  *Geoderma* ,  *436* , 116553. https://doi.org/10.1016/j.geoderma.2023.116553
+
 ## License
 
 This project is open source. Please cite appropriately if used in academic work.
